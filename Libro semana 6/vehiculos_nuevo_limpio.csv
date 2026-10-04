@@ -1,0 +1,301 @@
+anuncio_id,precio,anio,marca,modelo,condicion,combustible,odometro,transmision,tipo_vehiculo,estado,fecha_publicacion,precio_utilizable,antiguedad_al_publicar
+7303319294,19995.0,2013,jeep,wrangler,,gas,74879.0,automatic,suv,tx,2021-04-07 20:26:28+00:00,True,8
+7309788481,21880.0,2016,mercedes-benz,e-class,,gas,80323.0,automatic,sedan,tx,2021-04-20 14:40:06+00:00,True,5
+7309637883,4500.0,1987,,87 k5 blazer,,gas,54000.0,automatic,,tx,2021-04-20 02:56:59+00:00,True,34
+7307241937,24000.0,2014,chevrolet,silverado 1500,excellent,gas,137820.0,automatic,,tx,2021-04-15 16:34:48+00:00,True,7
+7302701561,32590.0,2018,alfa-romeo,romeo stelvio sport suv 4d,good,other,14863.0,other,hatchback,tx,2021-04-06 17:51:24+00:00,True,3
+7308200847,9500.0,2015,kia,soul,,gas,114372.0,automatic,,tx,2021-04-17 13:49:02+00:00,True,6
+7303084376,26588.0,2016,ford,f-250,like new,gas,135151.0,automatic,,tx,2021-04-07 14:15:37+00:00,True,5
+7315169467,59724.0,2017,ram,diesels cummins 2500,,diesel,40846.0,automatic,truck,ut,2021-05-01 03:45:11+00:00,True,4
+7308101080,8550.0,2018,ford,ecosport titanium awd,,gas,38450.0,automatic,suv,ut,2021-04-17 04:10:08+00:00,True,3
+7313697472,13950.0,2017,nissan,rogue awd,,gas,28709.0,automatic,suv,ut,2021-04-28 04:15:33+00:00,True,4
+7316993838,3495.0,2004,mercury,sable,,gas,163288.0,automatic,sedan,ut,2021-05-04 22:46:24+00:00,True,17
+7315152612,35999.0,2013,ram,1500 laramie 4x4 gas,,gas,46756.0,automatic,truck,ut,2021-05-01 02:29:58+00:00,True,8
+7315014700,20900.0,2014,,mobility ventures mv-1 se wheel,,gas,33421.0,automatic,van,ut,2021-04-30 20:48:57+00:00,True,7
+7314589232,62995.0,2017,ford,e-series chassis gulfstream conquest,,gas,15910.0,automatic,other,ut,2021-04-29 23:22:15+00:00,True,4
+7309939311,44290.0,2016,chrysler,town and country,excellent,gas,34494.0,automatic,van,ut,2021-04-20 18:23:01+00:00,True,5
+7304248337,9685.0,2013,kia,sorento,good,gas,109504.0,automatic,suv,ut,2021-04-09 17:28:36+00:00,True,8
+7314818804,35996.0,2002,lexus,sc 430,good,gas,19275.0,automatic,convertible,vt,2021-04-30 15:23:26+00:00,True,19
+7314511036,34900.0,2018,jeep,grand cherokee laredo,,gas,68181.0,automatic,,vt,2021-04-29 20:41:13+00:00,True,3
+7313939590,9996.0,2014,toyota,corolla,good,gas,83160.0,automatic,sedan,vt,2021-04-28 18:09:22+00:00,True,7
+7312965921,22995.0,2019,subaru,legacy 3.6r limited,like new,gas,15000.0,automatic,sedan,vt,2021-04-26 19:13:00+00:00,True,2
+7312953317,16999.0,2013,audi,a6 3.0t quattro,,gas,94000.0,automatic,,vt,2021-04-26 18:53:09+00:00,True,8
+7311465801,21990.0,2008,ford,super duty f-350 srw,good,gas,72658.0,automatic,,vt,2021-04-23 18:07:01+00:00,True,13
+7307661695,9995.0,2004,ford,f350 xlt,,diesel,182230.0,automatic,pickup,vt,2021-04-16 13:49:49+00:00,True,17
+7307260025,24555.0,2017,ford,edge,,gas,19455.0,other,,vt,2021-04-15 17:02:01+00:00,True,4
+7306945458,33990.0,2016,ford,transit cutaway,good,gas,117800.0,automatic,,vt,2021-04-14 22:48:36+00:00,True,5
+7306688020,6999.0,2010,subaru,impreza outback sport,,gas,144000.0,manual,,vt,2021-04-14 15:39:52+00:00,True,11
+7306357990,18998.0,2018,nissan,rogue,excellent,gas,35065.0,automatic,suv,vt,2021-04-13 20:33:07+00:00,True,3
+7306098837,17665.0,2018,chevrolet,equinox,excellent,gas,78448.0,automatic,suv,vt,2021-04-13 13:28:41+00:00,True,3
+7304774345,14988.0,2013,honda,cr-v,good,gas,115664.0,automatic,suv,vt,2021-04-10 17:47:14+00:00,True,8
+7304635486,99.0,1987,mercedes-benz,500-class,,gas,56649.0,automatic,convertible,vt,2021-04-10 14:00:51+00:00,True,34
+7304428390,5995.0,2008,chrysler,300,excellent,gas,174474.0,automatic,sedan,vt,2021-04-09 22:34:29+00:00,True,13
+7303087032,9995.0,2010,toyota,highlander 4wd,excellent,gas,151000.0,automatic,suv,vt,2021-04-07 14:20:17+00:00,True,11
+7310756156,14000.0,1979,mercedes-benz,450sl,excellent,gas,103000.0,automatic,convertible,va,2021-04-22 11:49:29+00:00,True,42
+7307663034,1.0,1968,mercedes-benz,unimog,excellent,gas,33000.0,manual,truck,va,2021-04-16 13:52:16+00:00,True,53
+7307400149,,2017,volkswagen,passat,,gas,88271.0,automatic,,va,2021-04-15 20:47:55+00:00,False,4
+7305083187,36590.0,2018,jaguar,e-pace p300 r-dynamic s,good,other,5837.0,other,suv,va,2021-04-11 12:12:26+00:00,True,3
+7303852775,4000.0,2005,,international school bus,,diesel,236601.0,automatic,bus,va,2021-04-08 20:47:25+00:00,True,16
+7315672986,,2018,mercedes-benz,e-class,,gas,34099.0,automatic,sedan,va,2021-05-02 10:21:52+00:00,False,3
+7308773389,49590.0,2020,ford,f250 super duty crew cab xl,good,other,6033.0,other,pickup,va,2021-04-18 16:10:49+00:00,True,1
+7304904931,15998.0,2014,mercedes-benz,e-class,,gas,97041.0,automatic,sedan,va,2021-04-10 21:27:44+00:00,True,7
+7304260318,6000.0,2013,chrysler,200 lx,,gas,109350.0,automatic,,va,2021-04-09 17:47:21+00:00,True,8
+7304129446,,2021,gmc,sierra 1500,,gas,3.0,automatic,,va,2021-04-09 14:21:27+00:00,False,0
+7316395370,,2015,ford,f-150,,gas,60430.0,automatic,pickup,va,2021-05-03 20:05:41+00:00,False,6
+7315856266,,2016,ram,pickup 2500,,diesel,138707.0,automatic,truck,va,2021-05-02 18:37:08+00:00,False,5
+7315236981,6500.0,2002,toyota,tundra,good,gas,157000.0,automatic,truck,va,2021-05-01 12:44:50+00:00,True,19
+7314577246,,2017,ram,1500,,gas,55215.0,automatic,pickup,va,2021-04-29 22:55:22+00:00,False,4
+7312342729,29990.0,2017,jeep,wrangler sport suv 2d,good,gas,28680.0,other,other,va,2021-04-25 15:41:21+00:00,True,4
+7311244576,16995.0,2014,audi,s4,,gas,118781.0,automatic,sedan,va,2021-04-23 09:52:32+00:00,True,7
+7309525347,10498.0,2015,dodge,journey,good,gas,97890.0,automatic,suv,va,2021-04-19 22:12:34+00:00,True,6
+7307856645,5995.0,2006,audi,a3,,gas,162111.0,automatic,wagon,va,2021-04-16 18:45:20+00:00,True,15
+7306872579,18200.0,2014,mercedes-benz,cla,excellent,gas,100000.0,automatic,sedan,va,2021-04-14 20:30:16+00:00,True,7
+7305425628,33998.0,2007,chevrolet,5500,,diesel,137455.0,automatic,truck,va,2021-04-12 00:22:39+00:00,True,14
+7314513206,8995.0,2013,chevrolet,equinox,excellent,gas,117555.0,automatic,suv,va,2021-04-29 20:45:15+00:00,True,8
+7311665499,20998.0,2017,cadillac,cts,,gas,77823.0,automatic,sedan,va,2021-04-24 00:24:30+00:00,True,4
+7301615230,32990.0,2015,chevrolet,ss sedan 4d,good,gas,84498.0,automatic,sedan,va,2021-04-04 12:53:10+00:00,True,6
+7315709536,35590.0,2010,chevrolet,corvette convertible,good,gas,31879.0,other,other,va,2021-05-02 13:25:19+00:00,True,11
+7312100605,14998.0,2014,bmw,3 series,,hybrid,102792.0,automatic,sedan,va,2021-04-24 21:57:21+00:00,True,7
+7308561391,38991.0,2020,ford,f-150,,gas,10554.0,automatic,truck,va,2021-04-18 00:31:32+00:00,True,1
+7303999521,6950.0,2010,volkswagen,tiguan,excellent,gas,125495.0,automatic,suv,va,2021-04-09 02:42:07+00:00,True,11
+7316308674,5995.0,2010,mercury,mariner,excellent,gas,140303.0,automatic,suv,va,2021-05-03 17:47:54+00:00,True,11
+7315953903,1500.0,2008,ford,edge,good,gas,167876.0,automatic,suv,va,2021-05-02 21:59:44+00:00,True,13
+7315899503,30990.0,2013,toyota,tacoma double cab,good,gas,26474.0,other,pickup,va,2021-05-02 20:01:47+00:00,True,8
+7314829359,,2006,chevrolet,silverado 2500hd,,diesel,291345.0,automatic,truck,va,2021-04-30 15:41:18+00:00,False,15
+7311436034,32990.0,2011,bmw,z4 sdrive35is roadster 2d,good,other,45858.0,other,other,va,2021-04-23 17:21:24+00:00,True,10
+7310476507,11800.0,2014,volkswagen,passat wolfsburg,,gas,64735.0,automatic,sedan,va,2021-04-21 18:57:15+00:00,True,7
+7310291639,3997.0,1998,lincoln,town car,excellent,gas,186972.0,automatic,sedan,va,2021-04-21 14:01:02+00:00,True,23
+7309834968,39990.0,2020,lexus,is 350 f sport sedan 4d,good,gas,8820.0,other,sedan,va,2021-04-20 15:51:11+00:00,True,1
+7308723883,1600.0,2002,bmw,x5 3.0i,fair,gas,243263.0,automatic,suv,va,2021-04-18 14:37:45+00:00,True,19
+7307849625,7495.0,2007,honda,cr-v,excellent,gas,139335.0,automatic,suv,va,2021-04-16 18:34:50+00:00,True,14
+7306975457,12900.0,2011,toyota,sienna le 8-passenger,excellent,gas,92089.0,automatic,mini-van,va,2021-04-14 23:57:47+00:00,True,10
+7305830693,3990.0,2008,ford,focus,,gas,,automatic,sedan,va,2021-04-12 20:17:26+00:00,True,13
+7305534909,26000.0,1994,,1994,good,diesel,6.0,automatic,truck,va,2021-04-12 11:53:34+00:00,True,27
+7305058202,19694.0,2014,bmw,5 series,,gas,68990.0,automatic,sedan,va,2021-04-11 07:55:38+00:00,True,7
+7304387739,6250.0,2011,nissan,altima,,gas,110343.0,,sedan,va,2021-04-09 21:16:43+00:00,True,10
+7304142833,6495.0,2012,subaru,impreza,excellent,gas,165065.0,automatic,hatchback,va,2021-04-09 14:45:26+00:00,True,9
+7316261598,8900.0,2004,toyota,4runner,excellent,gas,200490.0,automatic,suv,va,2021-05-03 16:36:58+00:00,True,17
+7315009231,7500.0,2009,honda,pilot ex-l,good,gas,162000.0,automatic,suv,va,2021-04-30 20:39:22+00:00,True,12
+7314562387,7500.0,2002,toyota,tundra double cab sr5,good,gas,124000.0,manual,truck,va,2021-04-29 22:22:36+00:00,True,19
+7314514022,27995.0,2016,jeep,wrangler,,gas,77615.0,automatic,suv,va,2021-04-29 20:46:41+00:00,True,5
+7312857473,44200.0,2017,ford,,,other,19292.0,manual,other,va,2021-04-26 16:30:00+00:00,True,4
+7309994243,15900.0,2012,ford,f-350,,gas,196941.0,automatic,,va,2021-04-20 19:51:50+00:00,True,9
+7308310407,5500.0,2009,bmw,328i,good,gas,160000.0,automatic,sedan,va,2021-04-17 16:52:05+00:00,True,12
+7308163042,70000.0,2007,,mack ctp713,excellent,diesel,527000.0,manual,,va,2021-04-17 12:06:25+00:00,True,14
+7307068835,5500.0,2008,volvo,v70,excellent,gas,139838.0,automatic,wagon,va,2021-04-15 06:58:44+00:00,True,13
+7306884064,48988.0,2018,toyota,sienna xle-nav,,gas,4500.0,automatic,,va,2021-04-14 20:50:09+00:00,True,3
+7306358447,10995.0,2012,audi,a5,,gas,123791.0,automatic,coupe,va,2021-04-13 20:33:53+00:00,True,9
+7305307252,5000.0,2005,mini,cooper s,good,gas,110000.0,manual,,va,2021-04-11 19:55:59+00:00,True,16
+7305217960,11995.0,2012,gmc,acadia,,gas,108830.0,automatic,suv,va,2021-04-11 17:16:42+00:00,True,9
+7316907536,37990.0,2019,toyota,4runner sr5 sport utility,good,gas,30399.0,other,other,va,2021-05-04 20:01:24+00:00,True,2
+7316328903,,2014,mercedes-benz,e-class,,gas,60041.0,automatic,sedan,va,2021-05-03 18:18:49+00:00,False,7
+7316284639,5995.0,2011,mazda,mazda2 sport,excellent,gas,62958.0,automatic,hatchback,va,2021-05-03 17:11:18+00:00,True,10
+7316125589,7995.0,2012,hyundai,veloster,,gas,90818.0,automatic,coupe,va,2021-05-03 12:22:14+00:00,True,9
+7315167345,4500.0,1993,chevrolet,corvette convertible,good,gas,151170.0,manual,convertible,va,2021-05-01 03:33:58+00:00,True,28
+7314695604,18998.0,2014,nissan,xterra,,gas,110482.0,automatic,suv,va,2021-04-30 06:27:47+00:00,True,7
+7312060667,17872.0,2014,bmw,5 series,,diesel,78313.0,automatic,sedan,va,2021-04-24 20:36:45+00:00,True,7
+7310603541,3100.0,2009,saturn,auru xr,excellent,gas,219750.0,automatic,sedan,va,2021-04-21 22:48:59+00:00,True,12
+7309571286,4000.0,2000,lincoln,town car,excellent,gas,80900.0,automatic,,va,2021-04-19 23:45:31+00:00,True,21
+7308338128,33590.0,2015,mercedes-benz,e-class e 400,good,gas,23623.0,other,convertible,va,2021-04-17 17:31:28+00:00,True,6
+7307979170,9500.0,2014,nissan,juke,excellent,gas,108147.0,automatic,wagon,va,2021-04-16 22:15:38+00:00,True,7
+7305856959,9995.0,2013,volvo,xc60 3.2,excellent,gas,114621.0,automatic,suv,va,2021-04-12 21:00:20+00:00,True,8
+7304483707,6999.0,2013,chevrolet,equinox ls awd,like new,gas,147177.0,automatic,suv,va,2021-04-10 00:43:35+00:00,True,8
+7304347753,7995.0,2013,ford,taurus,,gas,140474.0,automatic,sedan,va,2021-04-09 20:06:56+00:00,True,8
+7304101006,9450.0,2014,toyota,camry,good,gas,144735.0,automatic,sedan,va,2021-04-09 13:28:33+00:00,True,7
+7313456787,25931.0,2016,chevrolet,silverado 1500,,gas,124532.0,automatic,pickup,va,2021-04-27 18:40:00+00:00,True,5
+7314009348,7990.0,2007,mercedes-benz,e-class,excellent,gas,134610.0,automatic,wagon,va,2021-04-28 20:07:36+00:00,True,14
+7311158007,19795.0,2014,ram,1500,,gas,116806.0,automatic,pickup,va,2021-04-23 00:50:35+00:00,True,7
+7316976061,7999.0,2009,honda,accord ex-l w/navi,good,gas,128666.0,automatic,sedan,wa,2021-05-04 22:08:34+00:00,True,12
+7316240686,31795.0,2015,ford,f-150 xlt,,gas,90745.0,automatic,,wa,2021-05-03 16:05:33+00:00,True,6
+7315515193,501.0,2017,bmw,x5 xdrive35d m-sport pkg --,,diesel,47982.0,automatic,suv,wa,2021-05-01 21:24:11+00:00,True,4
+7314878667,806.0,2018,gmc,sierra 3500,,diesel,64200.0,automatic,truck,wa,2021-04-30 17:00:29+00:00,True,3
+7314109841,49999.0,2019,nissan,armada platinum 4x4 gas,,gas,25178.0,automatic,suv,wa,2021-04-28 23:34:01+00:00,True,2
+7312948465,615.0,2018,audi,sq5,,gas,25240.0,automatic,suv,wa,2021-04-26 18:45:23+00:00,True,3
+7312045663,423.0,2015,ram,1500,,gas,82643.0,automatic,truck,wa,2021-04-24 20:10:02+00:00,True,6
+7311928743,32999.0,2018,subaru,wrx,,gas,21423.0,manual,sedan,wa,2021-04-24 17:01:10+00:00,True,3
+7310198858,8800.0,2011,mitsubishi,outlander sport,,gas,95000.0,automatic,,wa,2021-04-21 04:50:46+00:00,True,10
+7310065966,44189.0,2014,ford,super duty f-350 srw,,diesel,99064.0,automatic,truck,wa,2021-04-20 22:05:33+00:00,True,7
+7309850611,54999.0,2018,jeep,wrangler unlimited,,gas,10887.0,automatic,suv,wa,2021-04-20 16:14:33+00:00,True,3
+7309845412,15850.0,2012,bmw,3 series 328i xdrive,good,gas,56122.0,other,coupe,wa,2021-04-20 16:06:30+00:00,True,9
+7306758895,39999.0,2017,ram,1500,,gas,52216.0,automatic,truck,wa,2021-04-14 17:26:29+00:00,True,4
+7306757536,23999.0,2017,ford,focus,,gas,46718.0,manual,hatchback,wa,2021-04-14 17:24:26+00:00,True,4
+7304261481,11500.0,2011,ford,edge,,gas,92664.0,automatic,suv,wa,2021-04-09 17:49:19+00:00,True,10
+7302638739,64999.0,2016,gmc,sierra 2500hd,,diesel,44753.0,automatic,truck,wa,2021-04-06 16:16:24+00:00,True,5
+7301776415,2495.0,2001,subaru,legacy l awd,good,gas,220000.0,automatic,,wa,2021-04-04 19:55:59+00:00,True,20
+7316281080,44999.0,2017,ram,1500 laramie 4x4 gas,,gas,29581.0,automatic,truck,wa,2021-05-03 17:05:56+00:00,True,4
+7315981143,34599.0,2018,dodge,durango gt awd gas suv,,gas,42355.0,automatic,suv,wa,2021-05-02 23:05:54+00:00,True,3
+7314797420,49999.0,2020,chevrolet,silverado 1500 lt 4x4,,gas,8127.0,automatic,truck,wa,2021-04-30 14:45:54+00:00,True,1
+7314132376,12499.0,2005,gmc,c5500,,,156504.0,automatic,other,wa,2021-04-29 00:31:20+00:00,True,16
+7313862844,9998.0,2016,ford,focus,,gas,84601.0,automatic,sedan,wa,2021-04-28 16:08:58+00:00,True,5
+7313860974,,2015,ram,1500 laramie longhorn,,diesel,62898.0,automatic,,wa,2021-04-28 16:06:01+00:00,False,6
+7313279796,24998.0,2021,mitsubishi,outlander sport,new,gas,10.0,automatic,,wa,2021-04-27 13:46:39+00:00,True,0
+7312584802,45999.0,2019,ford,lifted f150 xlt 4x4 1/2 ton,,gas,30419.0,automatic,truck,wa,2021-04-25 23:28:54+00:00,True,2
+7312290676,29998.0,2022,mitsubishi,eclipse cross,new,gas,10.0,automatic,,wa,2021-04-25 13:45:18+00:00,True,0
+7311845646,52999.0,2020,ram,1500 laramie 4x4 gas,,gas,28118.0,automatic,truck,wa,2021-04-24 14:45:54+00:00,True,1
+7310805899,31999.0,2016,ram,1500 slt 4x4 1/2 ton,,gas,59628.0,automatic,truck,wa,2021-04-22 14:05:54+00:00,True,5
+7310804532,9980.0,2011,mazda,mazda3,,gas,131239.0,automatic,sedan,wa,2021-04-22 14:03:13+00:00,True,10
+7310614366,4990.0,2003,jeep,liberty,,gas,175470.0,automatic,,wa,2021-04-21 23:12:40+00:00,True,18
+7310525225,,2019,gmc,sierra 1500 denali 4x4 gas,,gas,35435.0,automatic,truck,wa,2021-04-21 20:18:09+00:00,False,2
+7308751487,57995.0,2018,ford,super duty f-350 srw,,diesel,93505.0,automatic,truck,wa,2021-04-18 15:31:55+00:00,True,3
+7308111940,,2008,toyota,4-runner,,gas,197721.0,automatic,wagon,wa,2021-04-17 05:13:47+00:00,False,13
+7307950647,4500.0,1972,chevrolet,monte carlo,fair,gas,100000.0,automatic,coupe,wa,2021-04-16 21:20:44+00:00,True,49
+7307659707,9990.0,2013,mazda,3,,gas,97199.0,automatic,,wa,2021-04-16 13:46:00+00:00,True,8
+7307468293,27999.0,2017,buick,enclave awd gas suv auto,,gas,46012.0,automatic,suv,wa,2021-04-15 23:05:55+00:00,True,4
+7307292107,16899.0,2021,mitsubishi,mirage es,,gas,6.0,manual,hatchback,wa,2021-04-15 17:50:42+00:00,True,0
+7306939779,47999.0,2020,gmc,sierra 1500 elevation 4x4,,gas,17952.0,automatic,truck,wa,2021-04-14 22:35:55+00:00,True,1
+7305868613,,2019,ford,f150 xlt xtr 4x4 1/2 ton,,gas,13361.0,automatic,truck,wa,2021-04-12 21:20:08+00:00,False,2
+7305661885,13995.0,2017,honda,hr-v,,gas,75025.0,automatic,suv,wa,2021-04-12 16:05:14+00:00,True,4
+7304803825,,2008,chevrolet,malibu,,gas,197707.0,automatic,sedan,wa,2021-04-10 18:31:54+00:00,False,13
+7304764735,19900.0,2018,lincoln,continental livery awd,excellent,gas,96273.0,automatic,other,wa,2021-04-10 17:32:31+00:00,True,3
+7304494279,12990.0,2016,ford,fiesta se,,other,73987.0,manual,hatchback,wa,2021-04-10 01:12:25+00:00,True,5
+7314718416,9995.0,2014,chevrolet,malibu ls,,gas,139800.0,automatic,sedan,wa,2021-04-30 11:07:34+00:00,True,7
+7314198253,13995.0,2008,gmc,yukon denali,good,gas,152000.0,automatic,suv,wa,2021-04-29 04:52:19+00:00,True,13
+7312927742,8999.0,2007,toyota,rav4,,gas,195596.0,automatic,wagon,wa,2021-04-26 18:14:00+00:00,True,14
+7311992531,23980.0,2016,ram,1500,,gas,127241.0,automatic,truck,wa,2021-04-24 18:40:42+00:00,True,5
+7311483626,,2008,buick,enclave,,gas,169483.0,automatic,suv,wa,2021-04-23 18:34:15+00:00,False,13
+7307955832,473.0,2019,chevrolet,camaro 1lt,excellent,gas,348.0,automatic,coupe,wa,2021-04-16 21:30:06+00:00,True,2
+7307391034,446.0,2016,ram,1500 limited,excellent,gas,118892.0,automatic,truck,wa,2021-04-15 20:31:41+00:00,True,5
+7305160486,27338.0,2018,nissan,rogue,,gas,33470.0,automatic,suv,wa,2021-04-11 15:31:50+00:00,True,3
+7316523969,5000.0,1999,toyota,four runner,good,gas,224588.0,manual,suv,wa,2021-05-04 00:21:19+00:00,True,22
+7315474944,26999.0,2013,toyota,tacoma,,gas,143577.0,automatic,pickup,wa,2021-05-01 20:05:26+00:00,True,8
+7314935517,38999.0,2018,jeep,wrangler jk unlimited,,gas,43222.0,automatic,suv,wa,2021-04-30 18:33:44+00:00,True,3
+7311930303,39999.0,2019,ram,1500 classic,,gas,13346.0,automatic,truck,wa,2021-04-24 17:03:10+00:00,True,2
+7309851317,34999.0,2018,ram,1500,,gas,40714.0,automatic,truck,wa,2021-04-20 16:15:32+00:00,True,3
+7309849638,8999.0,2012,nissan,altima,,gas,114250.0,manual,sedan,wa,2021-04-20 16:13:11+00:00,True,9
+7308507495,9990.0,1984,chevrolet,corvette,,gas,91298.0,automatic,other,wa,2021-04-17 22:16:26+00:00,True,37
+7301719533,49999.0,2013,chevrolet,silverado 2500hd,,diesel,24148.0,automatic,truck,wa,2021-04-04 17:39:43+00:00,True,8
+7317087510,43999.0,2014,gmc,sierra 3500hd sle,,diesel,92998.0,automatic,truck,wa,2021-05-05 03:15:23+00:00,True,7
+7317076808,15500.0,2013,audi,q5 2.0t premium hybrid,excellent,hybrid,90602.0,automatic,suv,wa,2021-05-05 02:31:58+00:00,True,8
+7317051637,4488.0,2007,buick,rendezvous cxl,good,gas,211922.0,automatic,suv,wa,2021-05-05 01:06:44+00:00,True,14
+7317051175,8688.0,2010,toyota,prius iii,good,other,129250.0,other,,wa,2021-05-05 01:05:26+00:00,True,11
+7317049292,4990.0,2002,lexus,es 300,excellent,gas,199507.0,automatic,sedan,wa,2021-05-05 01:00:22+00:00,True,19
+7317043376,44189.0,2014,ford,super duty f-350 srw xlt,,diesel,99064.0,automatic,truck,wa,2021-05-05 00:44:25+00:00,True,7
+7317017785,10999.0,2012,honda,civic lx sedan,good,gas,117233.0,automatic,sedan,wa,2021-05-04 23:39:47+00:00,True,9
+7317016340,5995.0,2005,chevrolet,express commercial cutaway,good,gas,111000.0,automatic,,wa,2021-05-04 23:36:16+00:00,True,16
+7316963282,1.0,1971,,1971 detomaso pantera,,gas,35000.0,manual,,wa,2021-05-04 21:42:37+00:00,True,50
+7316960280,243.0,2018,mazda,mazda3 sport,,gas,23460.0,manual,sedan,wa,2021-05-04 21:36:29+00:00,True,3
+7316906616,4499.0,2004,volvo,xc70,,gas,154323.0,automatic,wagon,wa,2021-05-04 20:00:01+00:00,True,17
+7316808113,35894.0,2019,cadillac,xt4 luxury,good,gas,26925.0,automatic,suv,wa,2021-05-04 17:21:04+00:00,True,2
+7316792909,16934.0,2018,chevrolet,malibu,excellent,gas,62742.0,automatic,,wa,2021-05-04 16:58:21+00:00,True,3
+7316568141,20988.0,2016,audi,a3 sportback e-tron,excellent,hybrid,63774.0,automatic,,wa,2021-05-04 02:31:07+00:00,True,5
+7316558195,9995.0,2015,kia,soul,,gas,104853.0,automatic,wagon,wa,2021-05-04 01:57:18+00:00,True,6
+7316530487,39999.0,2014,ford,super duty f-350 srw laria,,diesel,229340.0,automatic,truck,wa,2021-05-04 00:37:17+00:00,True,7
+7316457809,,2018,ford,f-150 raptor,,gas,28310.0,automatic,,wa,2021-05-03 21:57:46+00:00,False,3
+7316379158,,2017,hyundai,sonata,,gas,64754.0,automatic,sedan,wa,2021-05-03 19:38:38+00:00,False,4
+7316348408,,2010,honda,accord ex-l,,gas,77767.0,automatic,sedan,wa,2021-05-03 18:49:26+00:00,False,11
+7307583122,39999.0,2011,,maserati granturismo s,,gas,38954.0,automatic,coupe,wa,2021-04-16 06:32:36+00:00,True,10
+7306500811,2700.0,1999,bmw,540,good,gas,190000.0,automatic,sedan,wa,2021-04-14 02:03:17+00:00,True,22
+7317036167,44999.0,2011,gmc,sierra 2500hd sle 4x4,excellent,diesel,73163.0,automatic,pickup,wa,2021-05-05 00:24:45+00:00,True,10
+7316539425,24987.0,2015,toyota,rav4 limited,good,gas,36643.0,other,hatchback,wa,2021-05-04 01:00:35+00:00,True,6
+7312809011,5500.0,2002,ford,explorer sport trac,,gas,150800.0,automatic,,wa,2021-04-26 15:16:51+00:00,True,19
+7310064176,397.0,2018,acura,tlx w/advance pkg fully,excellent,gas,69123.0,automatic,sedan,wa,2021-04-20 22:01:53+00:00,True,3
+7310033834,176.0,2013,gmc,terrain slt,excellent,gas,167797.0,automatic,suv,wa,2021-04-20 21:01:25+00:00,True,8
+7306677456,9990.0,2008,kia,sorento lx,,other,112675.0,automatic,other,wa,2021-04-14 15:23:12+00:00,True,13
+7304784490,9999.0,2016,chevrolet,cruze lt fwd gas sedan,,gas,77525.0,automatic,sedan,wa,2021-04-10 18:02:53+00:00,True,5
+7304764999,52999.0,2019,ford,f150 lariat fx4 4x4 1/2 ton,,gas,24406.0,automatic,truck,wa,2021-04-10 17:32:53+00:00,True,2
+7304482762,43990.0,2018,ford,f-150 lariat,,other,39455.0,automatic,pickup,wa,2021-04-10 00:40:56+00:00,True,3
+7303611769,,2021,gmc,sierra duramax 2500 hd slt,,diesel,48.0,automatic,truck,wa,2021-04-08 14:21:16+00:00,False,0
+7302049080,49880.0,,,olet tahoe,,,48040.0,automatic,suv,wa,2021-04-05 14:50:32+00:00,True,
+7316337131,11995.0,2015,hyundai,elantra,,gas,61363.0,automatic,sedan,wa,2021-05-03 18:31:44+00:00,True,6
+7314840641,,2015,gmc,sierra 2500,,diesel,152940.0,automatic,truck,wa,2021-04-30 15:59:59+00:00,False,6
+7314794346,44995.0,2014,ford,super duty f-350 srw,,diesel,110771.0,automatic,truck,wa,2021-04-30 14:40:25+00:00,True,7
+7314602511,3000.0,2004,ford,expidition,good,gas,178000.0,automatic,,wa,2021-04-29 23:53:04+00:00,True,17
+7312073813,743.0,2018,ford,f-150 platinum ecoboost,excellent,gas,48440.0,automatic,truck,wa,2021-04-24 21:02:00+00:00,True,3
+7311814363,2988.0,2000,buick,regal,,gas,0.0,automatic,,wa,2021-04-24 13:43:50+00:00,True,21
+7310634839,37988.0,2012,jeep,grand cherokee,excellent,gas,46255.0,automatic,,wa,2021-04-22 00:01:25+00:00,True,9
+7310457661,15995.0,2013,chevrolet,malibu,excellent,gas,46267.0,automatic,,wa,2021-04-21 18:26:28+00:00,True,8
+7308539159,17995.0,2011,ford,ranger,,gas,91660.0,manual,truck,wa,2021-04-17 23:30:55+00:00,True,10
+7308512968,46999.0,2018,toyota,lifted 4runner trd off,,gas,23025.0,automatic,suv,wa,2021-04-17 22:29:00+00:00,True,3
+7308437271,378.0,2014,lexus,gs 350 awd sport package,excellent,gas,68830.0,automatic,sedan,wa,2021-04-17 20:02:46+00:00,True,7
+7307612230,14995.0,2014,honda,accord lx sedan cvt,,,76978.0,other,sedan,wa,2021-04-16 11:22:36+00:00,True,7
+7305656904,,2007,toyota,camry,,gas,177598.0,automatic,sedan,wa,2021-04-12 15:58:11+00:00,False,14
+7305071710,28999.0,2009,chevrolet,silverado 2500hd crew cab 4wd,,diesel,134255.0,automatic,pickup,wa,2021-04-11 11:07:39+00:00,True,12
+7304937815,10999.0,2011,honda,accord,excellent,gas,114770.0,automatic,sedan,wa,2021-04-10 22:37:15+00:00,True,10
+7304509539,33999.0,2017,ford,f150 xlt 4x4 half ton gas,,gas,82100.0,automatic,truck,wa,2021-04-10 02:02:06+00:00,True,4
+7315654988,,2014,mercedes-benz,m-class,,diesel,117257.0,automatic,suv,wv,2021-05-02 05:47:46+00:00,False,7
+7314251918,32999.0,2015,ford,f350,excellent,diesel,130586.0,automatic,pickup,wv,2021-04-29 12:45:29+00:00,True,6
+7310866169,34990.0,2018,bmw,4 series 430i convertible 2d,good,gas,39650.0,other,other,wv,2021-04-22 15:51:09+00:00,True,3
+7306943300,47990.0,2014,ford,super duty f-550 drw,good,diesel,39253.0,automatic,truck,wv,2021-04-14 22:43:48+00:00,True,7
+7305822171,49899.0,2016,chevrolet,silverado 3500hd,excellent,gas,112504.0,automatic,pickup,wv,2021-04-12 20:04:13+00:00,True,5
+7315581010,14500.0,2016,chevrolet,malibu,excellent,gas,71869.0,automatic,,wv,2021-05-02 00:05:59+00:00,True,5
+7312309342,5199.0,2007,honda,accord,excellent,gas,169000.0,automatic,sedan,wv,2021-04-25 14:31:03+00:00,True,14
+7311511935,6999.0,2010,subaru,forester premium awd,excellent,gas,145000.0,automatic,wagon,wv,2021-04-23 19:19:32+00:00,True,11
+7302537466,52990.0,2020,jaguar,e-pace p300 r-dynamic se,good,gas,79.0,other,other,wv,2021-04-06 13:24:45+00:00,True,1
+7301839113,7495.0,2007,chevrolet,silverado 1500,,gas,192000.0,automatic,,wv,2021-04-04 22:47:54+00:00,True,14
+7311865770,33990.0,2014,chevrolet,silverado 1500 crew,good,gas,68186.0,other,pickup,wv,2021-04-24 15:20:49+00:00,True,7
+7309025736,12500.0,1987,chevrolet,el camino,excellent,gas,106000.0,automatic,pickup,wv,2021-04-19 00:26:37+00:00,True,34
+7306849141,16000.0,2010,ram,1500,good,gas,97000.0,automatic,truck,wv,2021-04-14 19:50:52+00:00,True,11
+7304661775,39990.0,2019,ford,mustang gt premium coupe 2d,good,other,3629.0,other,coupe,wv,2021-04-10 14:51:06+00:00,True,2
+7304223470,27590.0,2018,bmw,3 series 330i xdrive sedan,good,other,20845.0,other,sedan,wv,2021-04-09 16:51:06+00:00,True,3
+7316096534,,2014,bmw,6 series,,gas,66143.0,automatic,sedan,wv,2021-05-03 08:38:47+00:00,False,7
+7312414655,33590.0,2019,ford,ranger supercrew xlt pickup,good,gas,7576.0,other,pickup,wi,2021-04-25 17:51:18+00:00,True,2
+7312290291,24995.0,2020,nissan,rogue,,gas,40904.0,automatic,,wi,2021-04-25 13:44:18+00:00,True,1
+7308212658,3500.0,2009,ford,escape,good,gas,218000.0,automatic,suv,wi,2021-04-17 14:12:30+00:00,True,12
+7307391355,11995.0,2014,chevrolet,volt,excellent,hybrid,67787.0,automatic,hatchback,wi,2021-04-15 20:32:16+00:00,True,7
+7306147353,42900.0,2017,ford,super duty f-250 srw,excellent,diesel,40181.0,automatic,pickup,wi,2021-04-13 15:00:25+00:00,True,4
+7305889106,4500.0,2003,toyota,highlander limited,good,gas,230000.0,automatic,suv,wi,2021-04-12 21:57:49+00:00,True,18
+7304153210,5500.0,2002,gmc,yukon xl 2500,good,gas,172000.0,manual,,wi,2021-04-09 15:02:33+00:00,True,19
+7303339000,26749.0,2017,ram,1500,excellent,gas,131075.0,automatic,pickup,wi,2021-04-07 21:00:48+00:00,True,4
+7302727963,10995.0,2000,toyota,tacoma,excellent,gas,67480.0,automatic,pickup,wi,2021-04-06 18:31:28+00:00,True,21
+7302215320,17000.0,2011,chevrolet,silverado 1500,good,gas,129753.0,automatic,pickup,wi,2021-04-05 18:57:49+00:00,True,10
+7314885434,14500.0,2018,chevrolet,sonic rs,excellent,gas,31225.0,automatic,hatchback,wi,2021-04-30 17:11:03+00:00,True,3
+7314276655,13995.0,2007,ford,f-350 superduty xlt,excellent,diesel,233627.0,manual,truck,wi,2021-04-29 13:49:49+00:00,True,14
+7311082566,5900.0,2007,gmc,sierra,fair,gas,215528.0,automatic,truck,wi,2021-04-22 21:55:06+00:00,True,14
+7310997962,,2014,dodge,durango limited,good,other,164330.0,automatic,other,wi,2021-04-22 19:20:56+00:00,False,7
+7309724487,9900.0,1936,pontiac,4 door,good,gas,36000.0,manual,sedan,wi,2021-04-20 12:26:29+00:00,True,85
+7307165202,7950.0,2015,chevrolet,cruze 1lt,good,gas,48121.0,automatic,sedan,wi,2021-04-15 14:32:49+00:00,True,6
+7302244138,8950.0,1998,jaguar,xk8 convertible v8,,gas,92060.0,automatic,,wi,2021-04-05 19:42:47+00:00,True,23
+7308072307,45990.0,2015,ford,f-150 lariat,excellent,gas,91616.0,automatic,truck,wi,2021-04-17 02:11:33+00:00,True,6
+7303688134,24990.0,2018,cadillac,cts sedan 4d,good,gas,70471.0,other,sedan,wi,2021-04-08 16:21:15+00:00,True,3
+7303263698,19900.0,2005,chevrolet,c4500,,diesel,120000.0,automatic,,wi,2021-04-07 18:53:11+00:00,True,16
+7314880414,10695.0,2008,mercedes-benz,benz gl-class gl450 7-speed automatic,,,132061.0,automatic,suv,wi,2021-04-30 17:02:55+00:00,True,13
+7308274141,27990.0,2016,bmw,3 series 340i sedan 4d,good,gas,46057.0,other,sedan,wi,2021-04-17 16:00:45+00:00,True,5
+7313260139,6500.0,2008,gmc,2500 box truck,good,gas,200000.0,automatic,,wi,2021-04-27 13:00:13+00:00,True,13
+7304703877,40990.0,2018,jeep,wrangler unlimited all new,good,gas,27605.0,other,suv,wi,2021-04-10 16:01:02+00:00,True,3
+7304509638,176.0,2015,kia,sorento,,gas,111588.0,automatic,suv,wi,2021-04-10 02:02:25+00:00,True,6
+7302553486,24995.0,2008,ram,2500,,diesel,132299.0,automatic,pickup,wi,2021-04-06 13:56:37+00:00,True,13
+7316641378,12777.0,2012,gmc,acadia,,other,143489.0,automatic,,wi,2021-05-04 12:00:38+00:00,True,9
+7307966203,19995.0,2014,buick,enclave premium awd w/3rd,excellent,gas,86562.0,automatic,suv,wi,2021-04-16 21:50:20+00:00,True,7
+7306635384,28590.0,2017,buick,enclave leather sport,good,other,29324.0,other,other,wi,2021-04-14 14:11:02+00:00,True,4
+7303552689,4488.0,2008,dodge,grand caravan,,other,185432.0,automatic,van,wi,2021-04-08 12:01:35+00:00,True,13
+7315444735,34990.0,2010,chevrolet,corvette coupe 2d,good,gas,19502.0,other,coupe,wi,2021-05-01 19:11:07+00:00,True,11
+7315311529,18500.0,1976,pontiac,trans am,excellent,gas,10000.0,manual,coupe,wi,2021-05-01 15:28:23+00:00,True,45
+7314437314,17995.0,2017,chevrolet,traverse,good,gas,109397.0,automatic,wagon,wi,2021-04-29 18:30:43+00:00,True,4
+7313900585,42988.0,2018,jaguar,f-pace,excellent,gas,30605.0,automatic,suv,wi,2021-04-28 17:06:45+00:00,True,3
+7313349205,25990.0,2019,ram,1500 classic regular cab,good,gas,12302.0,other,pickup,wi,2021-04-27 15:51:17+00:00,True,2
+7311023293,23500.0,2018,toyota,rav4 xle,,gas,34036.0,automatic,suv,wi,2021-04-22 20:04:32+00:00,True,3
+7310747783,14988.0,2010,ford,f150,excellent,gas,129392.0,automatic,,wi,2021-04-22 11:03:25+00:00,True,11
+7309351543,14950.0,2016,kia,optima sx turbo w/navigation,,gas,63722.0,automatic,,wi,2021-04-19 17:41:13+00:00,True,5
+7308245431,6800.0,1996,ford,mustang,excellent,gas,154000.0,manual,convertible,wi,2021-04-17 15:13:56+00:00,True,25
+7308242785,5999.0,2006,honda,odyssey,,gas,133791.0,automatic,,wi,2021-04-17 15:09:29+00:00,True,15
+7306942922,17980.0,2009,chevrolet,silverado 1500,excellent,gas,57926.0,automatic,truck,wi,2021-04-14 22:43:00+00:00,True,12
+7316699048,4497.0,2006,saturn,ion,,gas,132114.0,automatic,,wi,2021-05-04 14:25:11+00:00,True,15
+7316421628,8977.0,2013,ford,e-series cargo e-250,,other,147520.0,automatic,van,wi,2021-05-03 20:50:05+00:00,True,8
+7315437033,5999.0,1991,cadillac,fleetwood,good,gas,65871.0,automatic,,wi,2021-05-01 18:57:52+00:00,True,30
+7315194825,3299.0,2004,chrysler,pacifica,like new,gas,123867.0,automatic,wagon,wi,2021-05-01 06:52:18+00:00,True,17
+7311895279,29500.0,1973,,pinzgauer 712m,excellent,gas,10000.0,manual,truck,wi,2021-04-24 16:09:38+00:00,True,48
+7311547844,24999.0,2004,,freightliner mt45 chassis,,diesel,300429.0,automatic,truck,wi,2021-04-23 20:20:16+00:00,True,17
+7311470713,33990.0,2014,ford,super duty f-550 drw,good,diesel,136250.0,automatic,truck,wi,2021-04-23 18:14:18+00:00,True,7
+7311083020,2100.0,2007,jeep,patriot,,gas,1.0,,suv,wi,2021-04-22 21:55:59+00:00,True,14
+7309929830,5990.0,2011,kia,soul,excellent,gas,115486.0,manual,wagon,wi,2021-04-20 18:08:51+00:00,True,10
+7309924305,9990.0,2013,ford,escape,excellent,gas,84389.0,automatic,suv,wi,2021-04-20 18:00:30+00:00,True,8
+7308170510,32590.0,2016,toyota,4runner sr5 sport utility,good,other,49940.0,other,suv,wi,2021-04-17 12:32:52+00:00,True,5
+7307470327,13900.0,2017,toyota,prius,excellent,gas,31701.0,automatic,hatchback,wi,2021-04-15 23:10:21+00:00,True,4
+7316977957,7950.0,2008,toyota,tacoma,,gas,168400.0,automatic,pickup,wi,2021-05-04 22:12:26+00:00,True,13
+7316873380,34995.0,2017,chevrolet,silverado 2500hd,excellent,gas,108650.0,automatic,,wi,2021-05-04 19:03:43+00:00,True,4
+7311020930,24995.0,2019,ford,escape,,gas,39764.0,automatic,,wi,2021-04-22 20:00:36+00:00,True,2
+7311961016,25990.0,2019,ram,1500 classic regular cab,good,gas,12302.0,other,pickup,wi,2021-04-24 17:51:08+00:00,True,2
+7310363325,28990.0,2019,acura,ilx technology and a-spec,good,gas,5736.0,other,sedan,wi,2021-04-21 16:00:53+00:00,True,2
+7306881546,5990.0,2006,chevrolet,impala,excellent,gas,159636.0,automatic,sedan,wi,2021-04-14 20:45:41+00:00,True,15
+7306684800,7900.0,2010,hyundai,sonata,excellent,gas,105145.0,automatic,sedan,wi,2021-04-14 15:34:32+00:00,True,11
+7306245151,16990.0,2018,kia,soul wagon 4d,good,gas,10205.0,other,wagon,wi,2021-04-13 17:30:56+00:00,True,3
+7316461694,15900.0,2007,jeep,wrangler unlimited,,gas,167372.0,automatic,,wy,2021-05-03 22:05:05+00:00,True,14
+7315699738,25590.0,2019,dodge,charger sxt sedan 4d,good,gas,32214.0,other,sedan,wy,2021-05-02 12:55:30+00:00,True,2
+7313131429,29499.0,2017,ford,f-150,,other,41250.0,automatic,pickup,wy,2021-04-27 00:35:04+00:00,True,4
+7312141276,63995.0,2018,gmc,sierra 2500hd,,diesel,73019.0,automatic,,wy,2021-04-24 23:30:37+00:00,True,3
+7311770022,35990.0,2018,alfa-romeo,romeo stelvio ti sport,good,gas,19988.0,other,hatchback,wy,2021-04-24 11:00:26+00:00,True,3
+7311078031,26995.0,2014,ford,f150 lariat supercrew 4x4,like new,gas,159165.0,automatic,truck,wy,2021-04-22 21:45:52+00:00,True,7
+7311074436,23995.0,2015,ram,1500 4x4,like new,gas,127722.0,automatic,truck,wy,2021-04-22 21:38:39+00:00,True,6
+7308982949,16000.0,2016,ford,taurus sho awd,excellent,gas,25000.0,automatic,sedan,wy,2021-04-18 22:39:44+00:00,True,5
+7308286222,15300.0,2003,gmc,sierra 2500hd,good,diesel,198337.0,automatic,pickup,wy,2021-04-17 16:17:41+00:00,True,18
+7306047375,41590.0,2018,infiniti,qx80 sport utility 4d,good,gas,45339.0,other,suv,wy,2021-04-13 08:51:14+00:00,True,3
