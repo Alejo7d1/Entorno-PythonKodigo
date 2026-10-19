@@ -1,0 +1,206 @@
+{
+ "generado": "2026-10-19 01:05",
+ "datos": {
+  "viajes_enero_2024": 2954246,
+  "zonas_pronostico": 58,
+  "zonas_segmentadas": 101,
+  "zonas_con_viajes": 259,
+  "viajes_cubiertos_pct": 97.6883103167441
+ },
+ "entrenamiento": {
+  "desde": "2024-01-08",
+  "hasta": "2024-01-24",
+  "filas": 23606
+ },
+ "prueba": {
+  "desde": "2024-01-25",
+  "hasta": "2024-01-31",
+  "filas": 9744
+ },
+ "modelo": {
+  "nombre": "XGBoost · regresión de cuantiles (un solo modelo, 9 cuantiles)",
+  "mae_p50": 11.706936304060163,
+  "pinball": 4.584896668160228,
+  "cobertura_80": 0.8672003284072249,
+  "mae_por_cuantil": {
+   "p10": 19.916640012632023,
+   "p20": 14.950929282587598,
+   "p30": 12.843084609619353,
+   "p40": 11.844890768923745,
+   "p50": 11.706936304060163,
+   "p60": 12.340763743986699,
+   "p70": 14.007397508019297,
+   "p80": 17.066712145416805,
+   "p90": 23.863423730009686
+  },
+  "zonas_donde_pierde": 18,
+  "zonas_evaluadas": 58
+ },
+ "regla_simple": {
+  "nombre": "Igual que hace una semana (lag_168)",
+  "mae": 11.881773399014778,
+  "mejora_relativa_pct": 1.4714730628435646
+ },
+ "costos": {
+  "costo_ocioso": 10.0,
+  "costo_perdido": 40.0,
+  "cuantil_optimo": 0.8,
+  "cuantil_usado": "p80",
+  "costo_recomendacion_semana": 2257233.4198892117,
+  "costo_p50_semana": 2944294.238950927,
+  "costo_base_semana": 3160950.0,
+  "ejemplo_midtown_31": {
+   "zona": "Midtown Center",
+   "fecha": "2024-01-31",
+   "cuantil": "p80",
+   "recomendacion": 9373.95453453064,
+   "p50": 14140.06175994873,
+   "hace_una_semana": 15880.0
+  }
+ },
+ "por_grupo": [
+  {
+   "grupo": "Aeropuertos y viajes largos",
+   "zonas": 3,
+   "mae_modelo": 18.03465085109282,
+   "mae_base": 20.055555555555557,
+   "cobertura": 0.7777777777777778
+  },
+  {
+   "grupo": "Zonas de oficinas y tarde",
+   "zonas": 44,
+   "mae_modelo": 12.334219947560753,
+   "mae_base": 12.456709956709958,
+   "cobertura": 0.8710768398268398
+  },
+  {
+   "grupo": "Zonas nocturnas",
+   "zonas": 8,
+   "mae_modelo": 9.404074772014393,
+   "mae_base": 9.041666666666666,
+   "cobertura": 0.8705357142857143
+  },
+  {
+   "grupo": "Zonas de barrio con poca demanda",
+   "zonas": 3,
+   "mae_modelo": 2.3200257378075984,
+   "mae_base": 2.8492063492063493,
+   "cobertura": 0.8908730158730159
+  }
+ ],
+ "peores_zonas": [
+  {
+   "zona_id": 237,
+   "zona": "Upper East Side South",
+   "grupo": "Zonas de oficinas y tarde",
+   "mae_modelo": 29.738710751136143,
+   "mae_base": 23.875,
+   "cobertura": 0.8214285714285714
+  },
+  {
+   "zona_id": 186,
+   "zona": "Penn Station/Madison Sq West",
+   "grupo": "Zonas de oficinas y tarde",
+   "mae_modelo": 29.08991631155922,
+   "mae_base": 29.25595238095238,
+   "cobertura": 0.8095238095238095
+  },
+  {
+   "zona_id": 142,
+   "zona": "Lincoln Square East",
+   "grupo": "Zonas de oficinas y tarde",
+   "mae_modelo": 27.256078513605253,
+   "mae_base": 29.857142857142858,
+   "cobertura": 0.8154761904761905
+  },
+  {
+   "zona_id": 246,
+   "zona": "West Chelsea/Hudson Yards",
+   "grupo": "Zonas de oficinas y tarde",
+   "mae_modelo": 26.559413569314138,
+   "mae_base": 26.238095238095237,
+   "cobertura": 0.7380952380952381
+  },
+  {
+   "zona_id": 132,
+   "zona": "JFK Airport",
+   "grupo": "Aeropuertos y viajes largos",
+   "mae_modelo": 26.520554542541504,
+   "mae_base": 30.083333333333332,
+   "cobertura": 0.7738095238095238
+  },
+  {
+   "zona_id": 161,
+   "zona": "Midtown Center",
+   "grupo": "Zonas de oficinas y tarde",
+   "mae_modelo": 24.470106113524665,
+   "mae_base": 24.577380952380953,
+   "cobertura": 0.8630952380952381
+  },
+  {
+   "zona_id": 236,
+   "zona": "Upper East Side North",
+   "grupo": "Zonas de oficinas y tarde",
+   "mae_modelo": 24.451563334890775,
+   "mae_base": 18.797619047619047,
+   "cobertura": 0.8392857142857143
+  },
+  {
+   "zona_id": 138,
+   "zona": "LaGuardia Airport",
+   "grupo": "Aeropuertos y viajes largos",
+   "mae_modelo": 22.945865761732595,
+   "mae_base": 24.642857142857142,
+   "cobertura": 0.7619047619047619
+  }
+ ],
+ "segmentacion": {
+  "k": 4,
+  "silueta": {
+   "2": 0.3404797320074906,
+   "3": 0.37557768386678597,
+   "4": 0.41498030272291736,
+   "5": 0.37713393933463035,
+   "6": 0.3635472354651686,
+   "7": 0.36816192282188137
+  },
+  "varianza_pca": [
+   0.37738053379683667,
+   0.2702916322362536
+  ],
+  "grupos": [
+   {
+    "grupo": "Zonas de barrio con poca demanda",
+    "zonas": 38,
+    "descripcion": "44 viajes/día · distancia mediana 4.4 mi · tarifa mediana $25 · 19 % de viajes de noche · 23 % en fin de semana"
+   },
+   {
+    "grupo": "Zonas nocturnas",
+    "zonas": 12,
+    "descripcion": "700 viajes/día · distancia mediana 2.6 mi · tarifa mediana $17 · 49 % de viajes de noche · 44 % en fin de semana"
+   },
+   {
+    "grupo": "Zonas de oficinas y tarde",
+    "zonas": 46,
+    "descripcion": "1662 viajes/día · distancia mediana 2.0 mi · tarifa mediana $13 · 14 % de viajes de noche · 25 % en fin de semana"
+   },
+   {
+    "grupo": "Aeropuertos y viajes largos",
+    "zonas": 5,
+    "descripcion": "1604 viajes/día · distancia mediana 12.0 mi · tarifa mediana $58 · 19 % de viajes de noche · 27 % en fin de semana"
+   }
+  ]
+ },
+ "monitoreo": {
+  "umbral_mae": 15.8,
+  "mae_por_dia": {
+   "2024-01-25": 10.323691165513605,
+   "2024-01-26": 10.678487207965347,
+   "2024-01-27": 14.76950167050992,
+   "2024-01-28": 13.873993601799867,
+   "2024-01-29": 12.760664709516528,
+   "2024-01-30": 10.019385205921663,
+   "2024-01-31": 9.522830567194212
+  }
+ }
+}
