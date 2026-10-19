@@ -196,6 +196,10 @@ enero al 1 de febrero y solo busca la fila y predice.
 La API necesita `demanda.parquet` versionado (la raíz del repo ignora `*.parquet` para no subir
 los datos crudos, pero ese archivo está exceptuado en `.gitignore`).
 
+`requirements.txt` incluye **`scikit-learn`** porque `main.py` carga el modelo con
+`xgb.XGBRegressor`, que es el envoltorio de scikit-learn de XGBoost: sin esa librería el
+servicio falla al arrancar con `ImportError: sklearn needs to be installed` (código de salida 3).
+
 El plan gratuito **duerme la API a los 15 minutos** sin uso y tarda cerca de un minuto en
 despertar. La app espera hasta 90 segundos y explica qué está pasando.
 
