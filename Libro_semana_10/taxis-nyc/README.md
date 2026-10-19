@@ -1,4 +1,4 @@
-# 🚕 Taxis NYC — una app para quien toma decisiones
+# Taxis NYC — una app para quien toma decisiones
 
 Herramienta para coordinar una flota de taxis amarillos en Nueva York: pronostica **cuántos viajes
 habrá en cada zona y cada hora del día siguiente**, explica **qué tipo de zona es cada una** y
@@ -10,11 +10,11 @@ recomienda **cuántos taxis enviar** según lo que cuesta equivocarse.
 
 | Qué | Enlace |
 |---|---|
-| **App (Streamlit Cloud)** | _pendiente de publicar_ → `https://<tu-app>.streamlit.app` |
-| **API (Render)** | _pendiente de publicar_ → `https://<tu-api>.onrender.com/docs` |
+| **App (Streamlit Cloud)** | `https://taxisnyc-alejo-kodigo.streamlit.app/` |
+| **API (Render)** | `https://taxisnyc-alejokodigo.onrender.com/docs` |
 | **Notebook de preparación** | [`preparacion.ipynb`](preparacion.ipynb) |
 
-**Integrantes:** Alejandro Orellana · _(completar con el nombre del compañero/a de pareja)_
+**Integrantes:** Alejandro Orellana
 
 ## Resultados principales
 
@@ -85,24 +85,6 @@ streamlit run streamlit_app.py
 # → http://localhost:8501
 ```
 
-Si la app no encuentra la API local, se le puede decir dónde está. La forma más cómoda es
-copiar `example.env` a `app/.env` y ajustar el valor ahí:
-
-```bash
-# Windows PowerShell
-Copy-Item example.env app/.env
-```
-
-```env
-API_URL=http://localhost:8000
-```
-
-También sirve sin crear `.env`, con una variable de entorno:
-
-```powershell
-# Windows PowerShell
-$env:API_URL = "http://localhost:8000"
-```
 
 `comun.py` lee, en este orden: `st.secrets["API_URL"]`, la variable `API_URL` (incluida la de
 `app/.env`) y, si no hay ninguna, `http://localhost:8000`.
@@ -112,8 +94,7 @@ Para regenerar todos los artefactos (modelo, parquet, métricas y CSV de la app)
 
 ### Datos necesarios para el notebook
 
-El notebook lee dos archivos de la carpeta que lo contiene **o de su carpeta padre**. Si clonas el
-repositorio, descárgalos antes de ejecutarlo:
+El notebook lee dos archivos de la carpeta que lo contiene **o de su carpeta padre**. No se encuentran en el repositorio, descárgalos antes de ejecutarlo:
 
 ```bash
 curl -O https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet
@@ -172,55 +153,6 @@ enero al 1 de febrero y solo busca la fila y predice.
 5. **Monitoreo (extra)** — error día a día frente a un límite configurable, zonas con días atípicos
    y alertas.
 
-## Despliegue
-
-> **Las dos carpetas del proyecto viven dentro de `Libro_semana_10/taxis-nyc/` del repositorio.**
-> Render y Streamlit Cloud trabajan desde la **raíz del repositorio**, así que todas las rutas de
-> abajo incluyen ese prefijo.
-
-### API en Render
-
-1. Subir el repositorio a GitHub (**público**).
-2. En [render.com](https://render.com): **New → Web Service** → elegir el repositorio.
-3. Configurar:
-
-   | Campo | Valor |
-   |---|---|
-  | Root Directory | `Libro_semana_10/taxis-nyc/api` |
-   | Build Command | `pip install -r requirements.txt` |
-   | Start Command | `uvicorn main:app --host 0.0.0.0 --port $PORT` |
-   | Instance Type | Free |
-
-4. Al terminar, abrir `https://<tu-api>.onrender.com/docs` y probar `/pronostico`.
-
-La API necesita `demanda.parquet` versionado (la raíz del repo ignora `*.parquet` para no subir
-los datos crudos, pero ese archivo está exceptuado en `.gitignore`).
-
-`requirements.txt` incluye **`scikit-learn`** porque `main.py` carga el modelo con
-`xgb.XGBRegressor`, que es el envoltorio de scikit-learn de XGBoost: sin esa librería el
-servicio falla al arrancar con `ImportError: sklearn needs to be installed` (código de salida 3).
-
-El plan gratuito **duerme la API a los 15 minutos** sin uso y tarda cerca de un minuto en
-despertar. La app espera hasta 90 segundos y explica qué está pasando.
-
-### App en Streamlit Community Cloud
-
-1. En [share.streamlit.io](https://share.streamlit.io): **Create app** → el mismo repositorio.
-2. **Main file path:** `Libro_semana_10/taxis-nyc/app/streamlit_app.py`
-   (no `api/main.py`: ese es el backend de FastAPI).
-3. **Advanced settings → Secrets:**
-
-   ```toml
-   API_URL = "https://<tu-api>.onrender.com"
-   ```
-
-   Sin barra final. El código lee `st.secrets["API_URL"]`, así que cambiar la dirección no
-   requiere tocar el código. Si el secret falta, la app usa `http://localhost:8000` y muestra
-   «API sin respuesta».
-4. **Tema de colores:** el archivo de configuración que lee Streamlit Cloud es
-   `.streamlit/config.toml` en la **raíz del repositorio** (ya está creado). El de
-   `app/.streamlit/config.toml` solo aplica al ejecutar la app localmente desde la carpeta `app`.
-   Sin el de la raíz, la app publicada se vería con el tema por defecto.
 
 ## Funciones avanzadas de Streamlit usadas
 
@@ -266,11 +198,3 @@ despertar. La app espera hasta 90 segundos y explica qué está pasando.
 - Gana **por poco** a la regla simple. Su valor está en el **rango de incertidumbre**, que la regla
   simple no entrega.
 - **No usar** para recortar servicio en barrios de baja demanda ni para fijar turnos con el p50.
-
-## Entregables
-
-- [x] Notebook `preparacion.ipynb` ejecutado de principio a fin.
-- [x] API con `/`, `/info`, `/pronostico` y errores 404 claros.
-- [x] App de cinco páginas con mensaje claro si la API no responde.
-- [x] Artefactos precalculados (modelo, parquet, segmentación, métricas, monitoreo).
-- [ ] Publicar la API en Render y la app en Streamlit Cloud, y pegar los enlaces arriba.
