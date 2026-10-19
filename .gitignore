@@ -9,3 +9,9 @@ taxi_zone_lookup.csv
 yellow_tripdata_2024-01.parquet
 *.parquet
 **/vehicles.csv
+
+# variables de entorno locales (la plantilla versionada es example.env)
+**/.env
+
+# la API necesita este .parquet en el despliegue, aunque los datos crudos se ignoren
+!Libro semana 10/taxis-nyc/api/demanda.parquet

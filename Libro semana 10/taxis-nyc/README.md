@@ -38,6 +38,7 @@ Todas las cifras salen de `preparacion.ipynb` y se guardan en `app/data/metricas
 ```text
 taxis-nyc/
 ├── preparacion.ipynb          # datos, modelos, métricas y artefactos
+├── example.env                # plantilla de variables de entorno (copiar a app/.env)
 ├── api/
 │   ├── main.py                # FastAPI: /, /info, /pronostico
 │   ├── modelo_pronostico.ubj  # modelo (1.7 MB)
@@ -84,12 +85,27 @@ streamlit run streamlit_app.py
 # → http://localhost:8501
 ```
 
-Si la app no encuentra la API local, se le puede decir dónde está:
+Si la app no encuentra la API local, se le puede decir dónde está. La forma más cómoda es
+copiar `example.env` a `app/.env` y ajustar el valor ahí:
 
 ```bash
 # Windows PowerShell
+Copy-Item example.env app/.env
+```
+
+```env
+API_URL=http://localhost:8000
+```
+
+También sirve sin crear `.env`, con una variable de entorno:
+
+```powershell
+# Windows PowerShell
 $env:API_URL = "http://localhost:8000"
 ```
+
+`comun.py` lee, en este orden: `st.secrets["API_URL"]`, la variable `API_URL` (incluida la de
+`app/.env`) y, si no hay ninguna, `http://localhost:8000`.
 
 Para regenerar todos los artefactos (modelo, parquet, métricas y CSV de la app) basta con
 **ejecutar el notebook de principio a fin** desde la carpeta `Libro semana 10` o desde `taxis-nyc/`.
@@ -158,6 +174,10 @@ enero al 1 de febrero y solo busca la fila y predice.
 
 ## Despliegue
 
+> **Las dos carpetas del proyecto viven dentro de `Libro semana 10/taxis-nyc/` del repositorio.**
+> Render y Streamlit Cloud trabajan desde la **raíz del repositorio**, así que todas las rutas de
+> abajo incluyen ese prefijo (con el espacio en `Libro semana 10`).
+
 ### API en Render
 
 1. Subir el repositorio a GitHub (**público**).
@@ -166,12 +186,15 @@ enero al 1 de febrero y solo busca la fila y predice.
 
    | Campo | Valor |
    |---|---|
-   | Root Directory | `api` |
+   | Root Directory | `Libro semana 10/taxis-nyc/api` |
    | Build Command | `pip install -r requirements.txt` |
    | Start Command | `uvicorn main:app --host 0.0.0.0 --port $PORT` |
    | Instance Type | Free |
 
 4. Al terminar, abrir `https://<tu-api>.onrender.com/docs` y probar `/pronostico`.
+
+La API necesita `demanda.parquet` versionado (la raíz del repo ignora `*.parquet` para no subir
+los datos crudos, pero ese archivo está exceptuado en `.gitignore`).
 
 El plan gratuito **duerme la API a los 15 minutos** sin uso y tarda cerca de un minuto en
 despertar. La app espera hasta 90 segundos y explica qué está pasando.
@@ -179,7 +202,8 @@ despertar. La app espera hasta 90 segundos y explica qué está pasando.
 ### App en Streamlit Community Cloud
 
 1. En [share.streamlit.io](https://share.streamlit.io): **Create app** → el mismo repositorio.
-2. **Main file path:** `app/streamlit_app.py`.
+2. **Main file path:** `Libro semana 10/taxis-nyc/app/streamlit_app.py`
+   (no `api/main.py`: ese es el backend de FastAPI).
 3. **Advanced settings → Secrets:**
 
    ```toml
@@ -187,7 +211,12 @@ despertar. La app espera hasta 90 segundos y explica qué está pasando.
    ```
 
    Sin barra final. El código lee `st.secrets["API_URL"]`, así que cambiar la dirección no
-   requiere tocar el código.
+   requiere tocar el código. Si el secret falta, la app usa `http://localhost:8000` y muestra
+   «API sin respuesta».
+4. **Tema de colores:** el archivo de configuración que lee Streamlit Cloud es
+   `.streamlit/config.toml` en la **raíz del repositorio** (ya está creado). El de
+   `app/.streamlit/config.toml` solo aplica al ejecutar la app localmente desde la carpeta `app`.
+   Sin el de la raíz, la app publicada se vería con el tema por defecto.
 
 ## Funciones avanzadas de Streamlit usadas
 

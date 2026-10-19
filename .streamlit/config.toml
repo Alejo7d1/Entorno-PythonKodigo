@@ -1,0 +1,14 @@
+# Tema de la app de Taxis NYC.
+#
+# Streamlit Community Cloud copia el repositorio y ejecuta `streamlit run` desde su raíz,
+# y solo lee UN archivo de configuración: este (`.streamlit/config.toml` en la raíz del repo).
+# Por eso, además de `Libro semana 10/taxis-nyc/app/.streamlit/config.toml` (que sirve para
+# probar la app localmente desde la carpeta `app`), tiene que existir esta copia aquí.
+
+[theme]
+base = "light"
+primaryColor = "#1F4E79"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#111827"
+font = "sans serif"

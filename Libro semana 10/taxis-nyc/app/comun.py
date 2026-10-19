@@ -43,12 +43,28 @@ INSIGNIAS_GRUPO = {
 PALETA_EXTRA = ["#17BECF", "#BCBD22", "#7F7F7F", "#E45756", "#72B7B2", "#B279A2"]
 
 
+def _cargar_env_local() -> None:
+    """Carga `app/.env` si existe (plantilla: `example.env`). No pisa variables ya definidas."""
+    archivo = DIR / ".env"
+    if not archivo.is_file():
+        return
+    for linea in archivo.read_text(encoding="utf-8").splitlines():
+        linea = linea.strip()
+        if not linea or linea.startswith("#") or "=" not in linea:
+            continue
+        clave, valor = linea.split("=", 1)
+        os.environ.setdefault(clave.strip(), valor.strip().strip('"').strip("'"))
+
+
+_cargar_env_local()
+
+
 class ErrorAPI(Exception):
     """Problema al pedir datos a la API (sin conexión, tiempo agotado o error de datos)."""
 
 
 def url_api() -> str:
-    """Dirección de la API: primero Secrets, luego variable de entorno, luego localhost."""
+    """Dirección de la API: primero Secrets, luego `API_URL` (variable de entorno o `.env`), luego localhost."""
     try:
         valor = st.secrets.get("API_URL")
     except Exception:  # no hay secrets.toml
