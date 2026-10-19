@@ -14,4 +14,4 @@ yellow_tripdata_2024-01.parquet
 **/.env
 
 # la API necesita este .parquet en el despliegue, aunque los datos crudos se ignoren
-!Libro semana 10/taxis-nyc/api/demanda.parquet
+!Libro_semana_10/taxis-nyc/api/demanda.parquet

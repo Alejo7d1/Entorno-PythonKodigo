@@ -72,7 +72,7 @@ Requisitos: Python 3.10+ y los datos del mes en la carpeta que contiene `taxis-n
 # 1. Dependencias
 python -m venv .venv
 .venv\Scripts\activate            # Windows
-pip install -r api/requirements.txt -r app/requirements.txt
+pip install -r requirements.txt -r api/requirements.txt
 
 # 2. API (deja esta terminal abierta)
 cd api
@@ -174,9 +174,9 @@ enero al 1 de febrero y solo busca la fila y predice.
 
 ## Despliegue
 
-> **Las dos carpetas del proyecto viven dentro de `Libro semana 10/taxis-nyc/` del repositorio.**
+> **Las dos carpetas del proyecto viven dentro de `Libro_semana_10/taxis-nyc/` del repositorio.**
 > Render y Streamlit Cloud trabajan desde la **raíz del repositorio**, así que todas las rutas de
-> abajo incluyen ese prefijo (con el espacio en `Libro semana 10`).
+> abajo incluyen ese prefijo.
 
 ### API en Render
 
@@ -186,7 +186,7 @@ enero al 1 de febrero y solo busca la fila y predice.
 
    | Campo | Valor |
    |---|---|
-   | Root Directory | `Libro semana 10/taxis-nyc/api` |
+  | Root Directory | `Libro_semana_10/taxis-nyc/api` |
    | Build Command | `pip install -r requirements.txt` |
    | Start Command | `uvicorn main:app --host 0.0.0.0 --port $PORT` |
    | Instance Type | Free |
@@ -206,7 +206,7 @@ despertar. La app espera hasta 90 segundos y explica qué está pasando.
 ### App en Streamlit Community Cloud
 
 1. En [share.streamlit.io](https://share.streamlit.io): **Create app** → el mismo repositorio.
-2. **Main file path:** `Libro semana 10/taxis-nyc/app/streamlit_app.py`
+2. **Main file path:** `Libro_semana_10/taxis-nyc/app/streamlit_app.py`
    (no `api/main.py`: ese es el backend de FastAPI).
 3. **Advanced settings → Secrets:**
 
